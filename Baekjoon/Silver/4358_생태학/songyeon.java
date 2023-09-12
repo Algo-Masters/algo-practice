@@ -20,7 +20,6 @@ public class Main {
         }
 
         List<String> keyList = new ArrayList<>(trees.keySet());
-        keyList.sort((s1, s2) -> s1.compareTo(s2)); // 키 값에 대해 정렬
 
         for (String key: keyList){
             String result = String.format("%.4f", trees.get(key)/(double)total*100);
