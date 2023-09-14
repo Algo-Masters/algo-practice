@@ -81,3 +81,6 @@ ex) [#109] 송연
 
 **Commit** | `커밋내용 문제이름 이름(영어).java`<br> 
 ex) Create 요세푸스 문제 ssong.java
+
+**java 파일 경로** | `algo-practice/사이트명(영어)/문제레벨(영어)/문제번호_문제이름/이름(영어).java`<br> 
+ex) algo-practice/Baekjoon/Gold/7662_이중_우선순위_큐/ssong.java
