@@ -19,7 +19,7 @@
       </a>
     </td>
     <td>
-      <a href="https://github.com/babo0121">
+      <a href="https://github.com/yuzzin0121">
         <img src="https://avatars.githubusercontent.com/u/77273340?v=4" width="100" style="max-width: 100%;">
       </a>
     </td>
