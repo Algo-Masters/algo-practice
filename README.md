@@ -47,7 +47,7 @@
       <a href="https://github.com/HyunaJo">조현아</a>
     </td>
     <td align="center">
-      <a href="https://github.com/babo0121">조유진</a>
+      <a href="https://github.com/yuzzin0121">조유진</a>
     </td>
     <td align="center">
       <a href="https://github.com/kyum-q">김경미</a>
