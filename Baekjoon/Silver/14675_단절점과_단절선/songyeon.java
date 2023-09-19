@@ -22,16 +22,6 @@ public class Main {
             edges[v2]++;
         }
 
-
-        // 단절 점 찾기 - 단절점 배열 만들기
-        HashSet<Integer> points = new HashSet<>();
-        for (int i=1;i<=N;i++){
-            if (edges[i] >= 2){
-                points.add(i);
-            }
-        }
-
-
         int Q = Integer.parseInt(br.readLine());
         for (int q=0; q < Q; q++){
             st = new StringTokenizer(br.readLine());
@@ -39,7 +29,7 @@ public class Main {
             int k =  Integer.parseInt(st.nextToken());
 
             if (t == 1) { // 단절점인지 확인
-              if (points.contains(k)){
+              if (edges[k] >= 2){
                   bw.write("yes\n");
               }
               else {
