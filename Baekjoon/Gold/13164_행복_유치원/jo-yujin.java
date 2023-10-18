@@ -6,8 +6,7 @@ import java.util.StringTokenizer;
 public class jo-yujin {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out))
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken());   // 유치원생 수
         int K = Integer.parseInt(st.nextToken());   // 나누려고 하는 조의 개수
